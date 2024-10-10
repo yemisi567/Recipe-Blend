@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    opacity: 0.2;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ECEEF2;
+    border-radius: 5px;
+  }
+  .apexcharts-menu-icon {
+    display: none;
+  }
+  html {
+    font-size:  62.5%;
+    height: -webkit-fill-available;
+  }

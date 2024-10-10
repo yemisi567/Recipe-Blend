@@ -1,0 +1,11 @@
+import { ClassValue, clsx } from "clsx";
+import { twMerge } from "tailwind-merge";
+
+export function cn(...args: ClassValue[]) {
+  return twMerge(clsx(args));
+}
+
+
+export const isSmallScreen = () => {
+    return window.matchMedia("(max-width: 768px)").matches;
+};
